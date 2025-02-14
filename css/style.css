@@ -175,5 +175,20 @@ p {
 }
 
 .card-new:hover .card-img {
-  transform: scale(1.05); /* Optional: adds a slight zoom effect */
+  transform: scale(1.05); /* adds a slight zoom effect */
+}
+
+.shop-card{
+  width: 32%;
+  height: auto;
+  overflow: hidden;
+  position: relative; 
+}
+
+.shop-card img{
+  width: 100%;
+  height: 275px; 
+  object-fit: cover; 
+  border-radius: var(--border-radius);
+  image-rendering: auto; 
 }
