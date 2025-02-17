@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* Personalized Utility-based CSS (Tailwind-like) */
+
+:root {
+  --primary-bg: #121214; /* Dark Background */
+  --secondary-bg: #2a2a2e; /* Dark Gray */
+  --text-primary: #ffff; /* white*/
+  --text-secondary: #a0a0a0; /* Gray Text */
+  --border-radius: 8px;
+  --font-family: "Bebas Neue", sans-serif;
+  --spacing: 1rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --transition: all 0.3s ease;
+  --border-color: #333;
+  --button-bg: #3097dc;
+  --button-hover: #005bb5;
+}
+.text-sm {
+  font-size: 14px;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-xl {
+  font-size: 20px;
+}
+.text-2xl {
+  font-size: 30px;
+}
+.text-3xl {
+  font-size: 40px;
+}
+.font-bold {
+  font-weight: 600;
+}
+.font-semibold {
+  font-weight: 500;
+}
+.font-light {
+  font-weight: 200;
+}
+.font {
+  font-family: "Bebas Neue";
+}
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.card {
+  background: var(--secondary-bg);
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+.text-primary {
+  color: var(--primary-bg);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.bg-primary {
+  background-color: var(--primary-bg);
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+.bg-blue {
+  background-color: var(--button-bg);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-bg);
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.rounded {
+  border-radius: var(--border-radius);
+}
+
+.rounded-b {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.transition {
+  transition: var(--transition);
+}
+
+.w-full {
+  width: 100%;
+}
+.w-30 {
+  width: 20rem;
+}
+.w-15 {
+  width: 15rem;
+}
+.w-10 {
+  width: 12rem;
+}
+.w-1\/2 {
+  width: 50%;
+}
+.max-w-3\/4 {
+  width: 70rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+.my-2 {
+  margin: 0.5rem 0;
+}
+
+.mx-2 {
+  margin: 0 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+.my-4 {
+  margin: 1rem 0;
+}
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.m-4 {
+  margin: 1rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.my-6 {
+  margin: 1.5rem 0;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2.5rem;
+}
+.mb-8 {
+  margin-bottom: 2.5rem;
+}
+.my-8 {
+  margin: 2.5rem 0;
+}
+.m-8 {
+  margin: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 3rem;
+}
+.pb-8 {
+  padding-bottom: 3rem;
+}
+
+.p-5 {
+  padding: 30px 48px;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+.p-3 {
+  padding: 15px;
+}
+.p-2 {
+  padding: 8px 12px;
+}
+.p-1 {
+  padding: 8px;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Responsive Utilities */
+@media (max-width: 767px) {
+  .sm-hidden {
+    display: none;
+  }
+  .sm-block {
+    display: block;
+  }
+  .sm-flex {
+    display: flex;
+  }
+  .sm-text-center {
+    text-align: center;
+  }
+}
