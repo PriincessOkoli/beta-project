@@ -124,3 +124,32 @@ p {
   height: 100vh;
   background-color: var(--button-bg);
 }
+
+
+/* Free Games */
+
+.free-games {
+    height: 94vh;
+}
+
+.btn-outline {
+    border-radius: var(--border-radius);
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+.free-game-img {
+    width: 100%;
+    height: 290px; 
+    object-fit: cover; 
+    border-radius: var(--border-radius);
+}
+
+.btn-outline:hover {
+  background-color: var(--text-secondary);
+}
+
+.game-holder:hover {
+  cursor: pointer;
+}
