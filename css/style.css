@@ -220,3 +220,39 @@ background-color: var(--text-secondary);
 .game-holder:hover {
 cursor: pointer;
 }
+
+
+/* GRID LIST */
+.grid-div{
+  width: 30%;
+  height: auto;
+}
+
+hr{
+  margin: 0;
+  width: 2px;  
+  height: auto; 
+  background-color: whitesmoke; 
+  border: none; 
+  transform: rotate(180deg);
+  align-self: stretch;
+}
+
+.grid-list{
+  width: 100%;
+}
+
+.grid-list:hover{
+  background-color: #333;
+}
+
+.grid-img{
+  width: 25%;
+  height: 140px;
+  object-fit: cover; 
+  image-rendering: auto;
+}
+
+.small{
+  font-size: 25px;
+}
