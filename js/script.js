@@ -5,7 +5,7 @@ window.addEventListener("scroll", function() {
     } else {
         navbar.classList.remove("sticky");
     }
-});
+});  
 
 document.addEventListener("DOMContentLoaded", function () {
     const backToTopButton = document.querySelector("#back-to-top");
