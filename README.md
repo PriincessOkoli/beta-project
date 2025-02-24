@@ -1,3 +1,4 @@
+
 # **Delta Project I - Epic Games Landing Page**
 
 
@@ -55,3 +56,4 @@ Replication of Epic Games websites' landing page.
 │── index.html
 │── README.md
 ```
+
